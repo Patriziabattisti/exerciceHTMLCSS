@@ -1,0 +1,12 @@
+body {
+    color: #414141;/*dark grey*/
+    background-color: lightgray;
+    font-size: 18px;
+    
+}
+h1{
+    font-size: 2em;/*relatif à la taille donnée plus haut*/
+}
+h2{
+    font-size: 1.6em;
+}
