@@ -1,15 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*reset pages margin and padding*/
+}
+
+
 h1,p{
     background-color:lightgray;
 }
+
 em,strong{
     background-color: lightblue;
     display:inline;
 }
+
 h1{
     padding: 50px;
     border-bottom: 1px solid #5D6063;
 }
+
 p{
     padding:20px 0 20px 10px;
     margin-bottom: 50px;   
+}
+
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    
+    width:200px;
+    box-sizing: border-box;
+    margin: 20px auto; /*on the left is the vertical margin and on the right the horizontal margin*/
 }
